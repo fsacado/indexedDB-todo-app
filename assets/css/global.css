@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+button {
+    margin: 0 5px 0 5px;
+}
+
+#addInput {
+    background-color: white;
+    display: inline-block;
+    width: 30%;
+}
+
+#addInput::placeholder {
+    color: #D5CECE;
+}
+
+#tasksContainer {
+    width: 400px;
+    display: inline-block;
+}
+
+#spanContainer {
+    display: block;
+    height: 30px;
+}
+
+.check {
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+
+.spanText {
+    margin: 25px 30px 0 30px;
+    padding: 10px;
+    background-color: lightgreen;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: lightgray;
+}
+
+.closingX {
+    visibility: hidden;
+    float: right;
+    cursor: pointer;
+}
+
+.spanText:hover .closingX {
+    color: red;
+    visibility: visible;
+}
+
+
+
+
